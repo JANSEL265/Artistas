@@ -1,0 +1,27 @@
+$font-family-sans-serif: 'Barlow semi Condensed', sans-serif;
+
+$primary: #733fc8;
+$success: #49556b;
+$dark: #18202d;
+$secundary: #edf2f8;
+
+.alto-100 {
+    min-height: 100vh;
+}
+
+
+.fondo-card {
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+.shadow-lg {
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.849)
+}
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
